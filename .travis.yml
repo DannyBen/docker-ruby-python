@@ -1,0 +1,6 @@
+language: generic
+
+script:
+- docker-compose run --rm bash ruby --version
+- docker-compose run --rm bash python --version
+- docker-compose run --rm bash pip --version
